@@ -1,0 +1,13 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/coverage/.*
+<PROJECT_ROOT>/dist/.*
+
+[include]
+
+[libs]
+
+[options]
+
+[version]
+0.69.0
