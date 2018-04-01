@@ -1,5 +1,3 @@
-// @flow
-
 function logPerson(firstname, lastname) {
   console.log(`Hello ${firstname} ${lastname}`)
 }
