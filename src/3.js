@@ -1,35 +1,11 @@
-/*
-type Product = {
-  type: 'HOME' | 'AUTO' | 'LOAN',
-  name: string,
-  address: string,
-  vehicule: string,
-  bank: string,
-}
-*/
+// @flow
 
-function getMonthlyPayment(product) {
-  let price;
-  if (product.vehicule) {
-    price = 70;
-  } else if (product.bank) {
-    price = 2000;
-  }
-
-  return price.toFixed(2);
+function logPerson(firstname, lastname) {
+  console.log(`Hello ${firstname} ${lastname}`)
 }
 
-const auto = {
-  vehicule: 'C3',
-};
-console.log(getMonthlyPayment(auto));
+// function logPerson({firstname, lastname}) {
+//   console.log(`Hello ${firstname} ${lastname}`)
+// }
 
-const loan = {
-  bank: 'SG',
-};
-console.log(getMonthlyPayment(loan));
-
-const habitation = {
-  address: 'Paris',
-};
-console.log(getMonthlyPayment(habitation));
+logPerson('Paul', 'Dupont');
