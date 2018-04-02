@@ -1,5 +1,3 @@
-// @flow
-
 type Collection = {
   [vehicle: string]: number | null,
 };
