@@ -1,5 +1,3 @@
-// @flow
-
 const x = {
   first: 5,
   second: 6,
@@ -8,6 +6,6 @@ const x = {
   third: 8,
 };
 const y = x.name;
-// const z = y.someProp;
-// const t = z.someProp;
-// console.log(t.toString());
+const z = y.someProp;
+const t = z.someProp;
+console.log(t.toString());
