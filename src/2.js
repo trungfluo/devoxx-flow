@@ -1,3 +1,5 @@
+
+// Error too late
 const x = {
   first: 5,
   second: 6,

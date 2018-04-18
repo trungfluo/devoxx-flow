@@ -1,3 +1,6 @@
+
+
+// Few errors at runtime
 function multiple(a, b) {
   return a * b;
 }
