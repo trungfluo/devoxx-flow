@@ -1,5 +1,7 @@
 
+
 // Not easy to refactor
+
 function logPerson(firstname, lastname) {
   console.log(`Hello ${firstname} ${lastname}`)
 }
