@@ -11,3 +11,4 @@ function logPerson(firstname, lastname) {
 // }
 
 logPerson('Paul', 'Dupont');
+// logPerson({firstname: 'Paul', lastname: 'Dupont'});
